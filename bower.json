@@ -1,0 +1,24 @@
+{
+  "name": "gulp-angular-requirejs",
+  "version": "0.0.1",
+  "authors": [
+    "Micah Blu <micahblu@gmail.com:>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {},
+  "dependencies": {
+    "bootstrap": "~3.3.5",
+    "angularjs": "~1.4.1",
+    "requirejs": "~2.1.18",
+    "lodash": "~3.10.0",
+    "modernizr": "~2.8.3",
+    "angular-route": "~1.4.1"
+  }
+}
