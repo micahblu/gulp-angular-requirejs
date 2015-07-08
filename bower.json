@@ -1,6 +1,6 @@
 {
   "name": "gulp-angular-requirejs",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "authors": [
     "Micah Blu <micahblu@gmail.com:>"
   ],
@@ -12,6 +12,10 @@
     "test",
     "tests"
   ],
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/micahblu/gulp-angular-requirejs.git"
+  },
   "devDependencies": {},
   "dependencies": {
     "bootstrap": "~3.3.5",
