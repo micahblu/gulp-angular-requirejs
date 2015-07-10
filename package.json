@@ -1,6 +1,6 @@
 {
   "name": "gulp-angular-requirejs",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A development starter using gulp, angularjs and requirejs",
   "main": "index.js",
   "scripts": {

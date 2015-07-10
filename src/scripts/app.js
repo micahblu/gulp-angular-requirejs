@@ -1,9 +1,19 @@
-define(['angular', 'ng-route', './route-config', './modules/demo/demo-module'], function(angular, ngRoute, routeConfig){
+define(function(require) {
   'use strict';
 
-	var app = angular.module('myApp', ['ngRoute', 'demoModule']);
+   var angular = require('angular'),
+       ngRoute = require('ng-route'),
+       routeConfig = require('./route-config'),
+       toggleMenuDirective = require('./directives/toggle-menu/toggle-menu-directive'),
+       demoModule = require('./modules/demo/demo-module'),
+       aboutModule = require('./modules/about/about-module');
 
-	app.config(['$routeProvider', routeConfig]);
+
+	 var app = angular.module('myApp', ['ngRoute', 'demoModule', 'aboutModule']);
+
+   app.directive('toggleMenu', toggleMenuDirective);
+
+	 app.config(['$routeProvider', routeConfig]);
 
 	return app;
 });

@@ -1,6 +1,6 @@
 {
   "name": "gulp-angular-requirejs",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "authors": [
     "Micah Blu <micahblu@gmail.com:>"
   ],
@@ -12,9 +12,9 @@
     "test",
     "tests"
   ],
-  "repository" : {
-    "type" : "git",
-    "url" : "https://github.com/micahblu/gulp-angular-requirejs.git"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/micahblu/gulp-angular-requirejs.git"
   },
   "devDependencies": {},
   "dependencies": {
@@ -23,6 +23,7 @@
     "requirejs": "~2.1.18",
     "lodash": "~3.10.0",
     "modernizr": "~2.8.3",
-    "angular-route": "~1.4.1"
+    "angular-route": "~1.4.1",
+    "jquery": "~2.1.4"
   }
 }
